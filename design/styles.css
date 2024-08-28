@@ -1,0 +1,47 @@
+/* Reset some default browser styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #d5e1ef; /* light gray-blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* full viewport height */
+}
+
+/* card styling */
+.card {
+    background-color: white; /* card background */
+    border-radius: 15px; /* rounded corners */
+    padding: 20px; /* space inside card */
+    width: 300px; /* fixed width of card */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+}
+
+/* qr code image styling */
+.qr-code {
+    width: 100%; /* make the image responsive to the card width */
+    border-radius: 10px; /* rounded corners */
+    margin-top: 10px; /* space below the image */
+}
+
+/* text styyling */
+.main-heading {
+    font-size: 19px; /* adjust  fint size as per the design */
+    font-weight: 700; /* bold text */
+    color: #1f314f; /* dark blue text color */
+    margin-bottom: 15px; /* space below heading */
+}
+
+.description {
+    font-size: 15px; /* smaller font then the paragraph */
+    color: #7b8797; /* light gray text color */
+    line-height: 1.5; /* space between lines */
+}
